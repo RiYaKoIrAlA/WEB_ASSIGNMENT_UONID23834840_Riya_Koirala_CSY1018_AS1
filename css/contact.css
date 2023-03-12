@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-size: 20px;
+    background-color: #d0c5b1;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ae885a;
+    height: 29px;
+    width: 100%;
+}
+.logo h3{
+    color: #f5dfd0;
+    padding: 1px;
+    box-shadow: 1px 2px #543624;
+    text-align: end;
+    height: 21px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 0 30px 0px;
+    color: #543624;
+}
+nav ul li a:hover{
+    margin: 0 30px 0px;
+    color: #e6c492;
+    text-decoration: underline #e6c492;
+}
+.active{
+    text-decoration: underline #e6c492;
+    color: #543624;
+}
+.active:hover{
+    text-decoration: underline #e6c492;
+    color: #e6c492;
+}
+.box{
+    display: flex;
+    border: 2px solid #543624;
+    margin-top: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 800px;
+    border-radius: 30px;
+    text-align: center;
+}
+img{
+    width: 500px;
+}
+form{
+   margin: 50px 0px 0px 40px;
+   font-family: 'Mynerve', cursive;
+
+}
+form input{
+    width: 100%;
+    background: transparent;
+    border: 2px solid #ca9a7097;
+    box-shadow: 2px 2px rgb(193, 53, 141);
+}
+form textarea{
+    width: 100% ;
+    background: transparent;
+    border: 2px solid #ca9a7097;
+    box-shadow: 2px 2px rgb(193, 53, 141);
+}
+button{
+    background: transparent;
+    border: 2px solid #ca9a7097;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 0px 0px 140px;
+    color: black;
+    width: 40px;
+    height: 20px;
+    box-shadow: 2px 2px rgb(193, 53, 141);
+
+}
+button:hover{
+    color: black;
+    border: 1px solid white;
+    background: white;
+}
+.hi{
+    text-align: center;
+    font-size: 30px;
+}
+.page{
+    margin: 30px;
+}
+.page h3{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: medium;
+}
+.page p{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+    font-size: small;
+}
+.page p:hover{
+    color: 87;
+    transition: 3ms;
+}
