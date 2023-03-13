@@ -1,50 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Home|</title>
-        <link rel="stylesheet" href="css/home.css">
-        <!-- linking css and html -->
-    </head>
-    <body>
-     <div class="logo">
-        <h3>Riya</h3>
-        <!-- creating a logo inside html and css -->
-        <nav>
-            <!-- creating a nav bar -->
-            <ul>
-                <li><a class="active"  href="home.html">Home</a></li>
-                <li><a href="work.html">About Us</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="site.html">Site</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-     </div>
-     <!-- giving class name page to write text in it -->
-        <div class="page">
-            <h3>Hi,I am Riya Koirala!</h3>
+<html lang="en"> 
+<head>
+
+    <title>Home||</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+
+<body>
+<div>
+    <input type="checkbox" id="toggle">
+    <nav>
+        <!-- <h3 class="navbar-brand" >
+            Menu Brand
+        </h3> -->
+        <label class="navbar-toggler" for="toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+
+        <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link active"  href="home.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="work.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="site.html">Site</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <div class="page">
+        <h3>Hi,I am Riya Koirala!</h3>
+    </div>
+    <div>
+        <div class="page1">
+          <p>And I am an artist
+             and animator working in <i>"Studio Ghibli".</i></p>
+             <p>One of my first work <i>"The wind rises".</i> </p>
         </div>
-        <div>
-            <div class="page1">
-              <p>And I am an artist
-                 and animator working in <i>"Studio Ghibli".</i></p>
-                 <p>One of my first work <i>"The wind rises".</i> </p>
-            </div>
-            <div class="page2">
-                <!-- images 1 -->
-              <img src="images/twr.jpg" style="width:350px; " alt="group of ghibli characters">
-            </div>
-            <div class="page1">
-                <p> My second work is <i>"The Tale of the princess Kaguya".</i> </p>
-            </div>
-            <div class="page3">
-                <!-- images 2 -->
-                <img src="images/kk.jpg" style="width: 350px;" alt="a girl">
-            </div>
-            <!-- button to like about us with home. -->
-            <a href="work.html">
-            <button type="button"> More about me</button>
-            </a>
+        <div class="page2">
+            <!-- images 1 -->
+          <img src="images/twr.jpg" style="width:350px; " alt="group of ghibli characters">
         </div>
-    </body>
+        <div class="page1">
+            <p> My second work is <i>"The Tale of the princess Kaguya".</i> </p>
+        </div>
+        <div class="page3">
+            <!-- images 2 -->
+            <img src="images/kk.jpg" style="width: 350px;" alt="a girl">
+        </div>
+        <!-- button to like about us with home. -->
+        <a href="work.html">
+        <button type="button"> More about me</button>
+        </a>
+    </div>
+    <div class="end">
+        <a href="home.html">home</a>
+    </div>
+</div>
+</body>
+
 </html>
