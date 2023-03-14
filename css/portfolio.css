@@ -1,6 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    border: 0;
+    outline: 0;
     list-style: none;
     text-decoration: none;
 }
@@ -8,7 +10,7 @@ body{
     font-size: 20px;
     background-color: #d0c5b1;
 }
-.logo{
+/* .logo{
     display: flex;
     justify-content: space-between;
     background-color: #ae885a;
@@ -21,7 +23,7 @@ body{
     box-shadow: 1px 2px #543624;
     text-align: end;
     height: 21px;
-}
+} */
 nav ul{
     display: flex;
 }
