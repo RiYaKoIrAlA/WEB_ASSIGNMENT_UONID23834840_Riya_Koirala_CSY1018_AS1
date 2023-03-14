@@ -2,49 +2,67 @@
 <html>
     <head>
         <title>Portfolio|</title>
-        <link rel="stylesheet" href="portfolio.css">
+        <link rel="stylesheet" href="css/portfolio.css">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- linking -->
     </head>
     <body>
-     <div class="logo">
-        <h3>Riya</h3>
-        <!-- creating logo -->
-        <nav>
-            <!-- creating nav bar -->
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="work.html">About Us</a></li>
-                <li><a class="active"  href="portfolio.html">Portfolio</a></li>
-                <li><a href="site.html">Site</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-     </div>
-     <div class="together">
+        <div>
+            <div>
+                <input type="checkbox" id="toggle">
+                <nav>
+                    <h3 class="logo">Riya</h3>
+                    <!-- to create logo -->
+                    <label class="navbar-toggler" for="toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+                    <!-- for menu bar -->
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link"  href="home.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="work.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="site.html">Site</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+            
+                </nav>
+            </div>
+            <div class="together">
         
-        <div class="img">
-            <!-- putting two img in one div -->
-            <div class="img1">
-               <img src="images/hc.jpg" style="width: 500px;" alt="">
-               <p>Howl's moving castle released on 2004. </p>
-            </div>
-            <div class="img1">
-                <img src="images/sp.jpg" style="width: 500px;" alt="">
-            <p> Sprited Away released on 2001. </p>
+                <div class="img12">
+                    <!-- putting two img in one div -->
+                    <div class="img1">
+                       <img src="images/hc.jpg">
+                       <p>Howl's moving castle released on 2004. </p>
+                    </div>
+                    <div class="img1">
+                        <img src="images/sp.jpg">
+                    <p> Sprited Away released on 2001. </p>
+                    </div>
+                </div>
+                <div class="img12">
+                    <!-- putting two img in one div -->
+                    <div class="img1">
+                        <img src="images/tt.jpg">
+                        <p> The tale of the princess Kaguya released on 2013.</p>
+                    </div>
+                    <div class="img2">
+                        <img src="images/twr1.jpg">
+                        <p> The Wind Rises released on 2013.</p>
+                    </div> 
+                </div>
+             </div>
+             <div class="end">
+                <a class="top" href="home.html">Home</a>
+                <a class="top" href="work.html">About</a>
+                <a class="top" href="portfolio.html">Portfolio</a>
+                <a class="top" href="site.html">Site</a>
+                <a class="top" href="contact.html">Contact</a>
+                <p class="bottom"> Copyright@riya2023</p>
             </div>
         </div>
-        <div class="img">
-            <!-- putting two img in one div -->
-            <div class="img1">
-                <img src="images/tt.jpg" style="width: 500px;" alt="">
-                <p> The tale of the princess Kaguya released on 2013.</p>
-            </div>
-            <div class="img1">
-                <img src="images/twr1.jpg" style="width: 500px; height: 333.44px;" alt="">
-                <p> The Wind Rises released on 2013.</p>
-            </div> 
-        </div>
-     </div>
     </body>
 </html>
