@@ -148,6 +148,17 @@ img{
     margin-right: 20px;
     text-align: justify;
 }
+.co{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+.co p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
 .end{
     width: 100%;
     background: #ae885a;
@@ -234,6 +245,10 @@ img{
     }
     .si{
         display: grid;
+    }
+    .co{
+        display: grid;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 540px) {
