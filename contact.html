@@ -3,42 +3,69 @@
     <head>
         <title>Contact|</title>
         <link rel="stylesheet" href="css/contact.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- linking -->
     </head>
     <body>
-     <div class="logo">
-        <h3>Riya</h3>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="work.html">About Us</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="site.html">Site</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-     </div>
-     <div>
-        <h5 class="hi"> How may I help you? </h5>
-     </div>
-    <div class="box">
-        <img src="images/mnt.jpg" alt="characters">
-     <form>
-        <input type="text" id="name" required/>
-        <label for="name">Your Name</label>
-        <input type="email" id="email" required/>
-        <label for="email">Your Email</label>
-        <input type="text" id="number">
-        <label for="number">Phone no.</label>
-        <textarea id="message" rows="10"></textarea>
-        <label for="message">How may I help you?</label>
-        <button type="submit">Send</button>
-      </form>
-    </div>
-      <div class="page">
-        <h3> Contact</h3>
-        <p>+977-98000000</p>
-        <h3> Email</h3>
-        <p> riya.1@gmail.com</p>
+      <div>
+        <div>
+          <input type="checkbox" id="toggle">
+          <nav>
+              <h3 class="logo">Riya</h3>
+              <!-- to create logo -->
+              <label class="navbar-toggler" for="toggle">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </label>
+              <!-- for menu bar -->
+              <ul class="nav-list">
+                  <li class="nav-item"><a class="nav-link"  href="home.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="work.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="site.html">Site</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+              </ul>
+      
+          </nav>
+      </div>
+               <div>
+                 <h5 class="hi"> How may I help you? </h5>
+             </div>
+             <!-- helping format -->
+                  <div class="box">
+                        <img src="images/mnt.jpg" alt="characters">
+                          <form>
+                            <!-- form for contact -->
+                            <input type="text" id="name" placeholder="Your Name" required>
+                            <input type="email" id="email" placeholder="Your Email" required>
+                            <input type="number" id="number" placeholder="Phone no." required>
+                            <textarea id="message" rows="10" placeholder="How may I help you?"></textarea>
+                            <button type="submit">Send</button>
+                            </form>
+                     </div>
+                     <div class="msg">
+                      <p>
+                        If you want to know more about <i>Studio Ghibli</i> or want to work with us. Then use the email or number given below to contact us. But you must have bare minimum knowlege about animation and sketching. </p><p>If you want to animated anything hit me up. I take reasonable commission for my work. 
+                      
+                      </p>
+                     </div>
+                     <div class="end">
+                      <a class="top" href="home.html">Home</a>
+                      <a class="top" href="work.html">About</a>
+                      <a class="top" href="portfolio.html">Portfolio</a>
+                      <a class="top" href="site.html">Site</a>
+                      <a class="top" href="contact.html">Contact</a>
+                      <div class="allb">
+                      <p class="bottom"> Contact</p>
+                      <p class="bottom"> 98000000</p>
+                      <p class="bottom"> Email</p>
+                      <p class="bottom"> riya@1@email.com</p>
+                      <p class="bottom"> Copyright@riya2023</p>
+                      </div>
+  
+                  </div>
       </div>
     </body>
 </html>

@@ -141,13 +141,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     text-align: center;
 }
 @media (max-width:1080px) {
-    .logo{
-        height: 35px;
-        font-size: 23px;
-    }
-    .logo h3{
-        height: 25px;
-    }
     .img12{
        display: block;
     }
@@ -161,7 +154,6 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     padding: 0 2rem;
     height: 50px;
     }
-
     nav .nav-list .nav-item {
         padding: 0 20px;
     }
@@ -183,7 +175,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         font-size: 28px;
     }
 }
-@media (max-width: 650px) {
+@media (max-width: 790px) {
     
     nav .nav-list {
         display: grid;
@@ -203,6 +195,9 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     nav .navbar-toggler {
         display: grid !important;
     }
+}
+@media (max-width: 650px) {
+
 
     .img1 img{
         width: 400px;
@@ -214,6 +209,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     }
 }
 @media (max-width: 640px) {
+
     .img2 img{
     width: 400px;
     height: 235px;
@@ -278,6 +274,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
         height: 23vh;
     }
 }
+
 @media (max-width: 460px){
     .top{
         font-size: 20px;

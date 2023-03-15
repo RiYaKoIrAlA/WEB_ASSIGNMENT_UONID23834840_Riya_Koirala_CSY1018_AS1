@@ -2,20 +2,82 @@
 <html>
     <head>
         <title>Site|</title>
-        <link rel="stylesheet" href="site.css">
+        <link rel="stylesheet" href="css/site.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- linking -->
     </head>
     <body>
-        <div class="logo">
-            <h3>Riya</h3>
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="work.html">About Us</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a class="active" href="site.html">Site</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div>
+        <div>
+          <input type="checkbox" id="toggle">
+          <nav>
+              <h3 class="logo">Riya</h3>
+              <!-- to create logo -->
+              <label class="navbar-toggler" for="toggle">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </label>
+              <!-- for menu bar -->
+              <ul class="nav-list">
+                  <li class="nav-item"><a class="nav-link"  href="home.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="work.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="site.html">Site</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+      
+          </nav>
+      </div>
+               <div>
+                 <h5 class="hi">Home page</h5>
+                 <div class="hp">
+                <!-- hp stands for home page. -->
+                <img src="images/home.png" alt="characters">
+                <p> On the left side of the Home page logo is placed. While on the right side navigation bar is located. Viewer can easily know which page they are currently using by seeing the underline on the particular page. Text are written inside the box to make it readable on the colorful background. But it only applys to big screen devices on small devices there is no such thing. The whole background image is used as perspective which makes the background image stay in it's fixed place. But on mobile screen that is not the case.</p>
+
+                 </div> 
+                 </div>
+                 <!-- end of home page -->
+                 <div>
+                    <h5 class="hi">About page</h5>
+                    <div class="ab">
+                   <!-- ab stands for about page. -->
+                   <p> From ipad user point of view about page look like such same for other pages. All the text are in default font except the logo. Page only conatin one moving image on big screen devices and still image on small device like the images given below.  In this page the most eye catching thing will be the image. And some small talk about my self and the upcomming project of <i>"Studio Ghibli"</i>.</p>
+                   <img src="images/about.jpg" alt="page">
+   
+                    </div> 
+                    </div>
+                    <!-- end of about page -->
+                    <div>
+                        <h5 class="hi">Portfolio page</h5>
+                        <div class="po">
+                       <!-- po stands for portfolio page. -->
+                       <p> From phone user point of view portfolio page look like such. This page only conatin images. And all the images are work from <i>Studio Ghibli.</i> You can see that navigation bar which helps to access other pages such as Home, About, Portfolio and such have disappear. But in place of that three bar like icon have appeared. Meaning mobile user or any other small device user can easily access other pages through that "menu" icon. </p>
+                       <img src="images/portfolio.jpg" alt="page">
+       
+                        </div> 
+                        </div>
+                        <!-- end of portfolio page -->
+                        <div>
+                            <h5 class="hi">Site page</h5>
+                            <div class="si">
+                           <!-- si stands for site page. -->
+                           <p> Site page or Report page gives detail about all the pages and how it looks from different devices.  </p>
+                           <img src="images/site.jpg" alt="page">
+           
+                            </div> 
+                            </div>
+                            <!-- end of site page -->
+                     <div class="end">
+                      <a class="top" href="home.html">Home</a>
+                      <a class="top" href="work.html">About</a>
+                      <a class="top" href="portfolio.html">Portfolio</a>
+                      <a class="top" href="site.html">Site</a>
+                      <a class="top" href="contact.html">Contact</a>
+                      <p class="bottom"> Copyright@riya2023</p>
+                  </div>
+      </div>
     </body>
 </html>
