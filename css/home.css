@@ -260,7 +260,7 @@ button:hover{
         padding: 30px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     body{
         background:transparent;
     }
