@@ -19,7 +19,7 @@ body{
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 10px;
-    transition: 4s;
+    /* perspective to make it seems like the bg is 10px away from my eye sight */
 }
 nav {
     display: flex;
@@ -77,7 +77,7 @@ nav .navbar-toggler .bar {
     background: #ffffff;
     border-radius: 10%;
 }
-
+/* for hamburger icon */
 input {
     display: none;
 }
@@ -103,6 +103,7 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(45deg) translate(-30px, 25px);
     position: fixed;
 }
+
 .page{
     color: white;
     border: 3px solid #f5dfd0;
@@ -171,6 +172,7 @@ button:hover{
     height: 20vh;
     background: #ae885a;
     display: block;
+    padding: 30px;
 }
 .top{
     color: #543624;
@@ -188,7 +190,7 @@ button:hover{
     color: #543624;
     font-size: 24px;
     font-weight: 500;
-    padding: 80px;
+    padding: 70px;
     text-align: center;
 }
 @media (max-width: 1100px) {
@@ -198,7 +200,7 @@ button:hover{
     button{
         margin: 40px 0px 40px 370px;
     }
-
+/* decresing the size of img and button */
 }
 @media (max-width: 1030px) {
 
@@ -211,7 +213,7 @@ button:hover{
         padding: 0 20px;
     }
     .page{
-        margin-top: 20px;
+        margin-top: 15px;
         width: 90%;
     }
     .page1{
@@ -223,7 +225,7 @@ button:hover{
 
 }
 @media (max-width: 790px) {
-
+    
     nav .nav-list {
         display: grid;
         position: fixed;
@@ -246,9 +248,6 @@ button:hover{
         width: 80%;
         margin-top: 20px;
     }
-    .page1{
-        width: 80%;
-    }
     .page3 img{
         margin: 30px 0px 0px 25px;
     }
@@ -262,7 +261,7 @@ button:hover{
         padding: 30px;
     }
 }
-@media (max-width: 500px) {
+@media (max-width: 540px) {
     body{
         background:transparent;
     }
@@ -293,6 +292,7 @@ button:hover{
     input:checked ~ nav .navbar-toggler .bar:nth-child(3){
         transform: rotate(45deg) translate(-22px, 5px);
     }
+    /* to make the hamburger icon small for smal devices */
     nav .nav-list{
         top: 29px;
     }
@@ -305,6 +305,9 @@ button:hover{
         background-color: transparent;
         justify-content: center;
         font-size: 20px;
+    }
+    .page1 p{
+            font-size: 15px;
     }
     .page2 img{
         color: white;
@@ -334,6 +337,9 @@ button:hover{
     }
 }
 @media (max-width: 396px){
+    body{
+        transition: 0.1s;
+    }
     .page3 img{
         width: 150px;
         margin: 12px;

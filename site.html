@@ -2,20 +2,91 @@
 <html>
     <head>
         <title>Site|</title>
-        <link rel="stylesheet" href="site.css">
+        <link rel="stylesheet" href="css/site.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- linking -->
     </head>
     <body>
-        <div class="logo">
-            <h3>Riya</h3>
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="work.html">About Us</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a class="active" href="site.html">Site</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div>
+        <div>
+          <input type="checkbox" id="toggle">
+          <nav>
+              <h3 class="logo">Riya</h3>
+              <!-- to create logo -->
+              <label class="navbar-toggler" for="toggle">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </label>
+              <!-- for menu bar -->
+              <ul class="nav-list">
+                  <li class="nav-item"><a class="nav-link"  href="home.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="work.html">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="site.html">Site</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+      
+          </nav>
+      </div>
+               <div>
+                 <h5 class="hi">Home page</h5>
+                 <div class="hp">
+                <!-- hp stands for home page. -->
+                <img src="images/home.png" alt="characters">
+                <p> On the left side of the Home page logo is placed. While on the right side navigation bar is located. The viewer can easily know which page they are currently using by seeing the underline on the particular page. Text is written inside the box to make it readable on a colorful background. But it only applies to big-screen devices on small devices there is no such thing. The whole background image is used as a perspective which makes the background image stay in its fixed place. But on a mobile screen that is not the case.</p>
+
+                 </div> 
+                 </div>
+                 <!-- end of home page -->
+                 <div>
+                    <h5 class="hi">About page</h5>
+                    <div class="ab">
+                   <!-- ab stands for about page. -->
+                   <p> From the iPad user's point of view about page looks like such same as other pages. All the text is in default font except the logo. Page only contains one moving image on big screen devices and a still image on a small device like the images given below.  On this page, the most eye-catching thing will be the image. And some small talk about myself and the upcoming project of <i>"Studio Ghibli"</i>.</p>
+                   <img src="images/about.jpg" alt="page">
+   
+                    </div> 
+                    </div>
+                    <!-- end of about page -->
+                    <div>
+                        <h5 class="hi">Portfolio page</h5>
+                        <div class="po">
+                       <!-- po stands for portfolio page. -->
+                       <p> From the phone user's point of view portfolio page look like such. This page only contains images. And all the images work from <i>Studio Ghibli.</i> You can see that the navigation bar which helps to access other pages such as Home, About, Portfolio, and such has disappeared. But in place of that three bar-like icons have appeared. Meaning a mobile user or any other small device user can easily access other pages through that "menu" icon. </p>
+
+                       <img src="images/portfolio.jpg" alt="page">
+       
+                        </div> 
+                        </div>
+                        <!-- end of portfolio page -->
+                        <div>
+                            <h5 class="hi">Site page</h5>
+                            <div class="si">
+                           <!-- si stands for site page. -->
+                           <p> The site page or Report page gives detail about all the pages and how it looks from different devices.  </p>
+                           <img src="images/site.jpg" alt="page">
+           
+                            </div> 
+                            </div>
+                            <!-- end of site page -->
+                            <div>
+                                <h5 class="hi">Contact page</h5>
+                                <div class="co">
+                               <!-- co stands for contact page. -->
+                               <img src="images/contact.jpg" alt="page">
+                               <p> The contact page has four input boxes in it. Consisting of "Your Name", "Your Email", "Phone no." and "Your message". It has its own default value. Email must contain @, Phone no. can only contain numbers, and Names have data type text. If any of the value does not match the data or message will not be sent. Name, Email, and Phone no. must not be blank. To contact us, the viewer can easily access the phone no available on the contact page. </p>
+                                </div> 
+                                </div>
+                     <div class="end">
+                      <a class="top" href="home.html">Home</a>
+                      <a class="top" href="work.html">About</a>
+                      <a class="top" href="portfolio.html">Portfolio</a>
+                      <a class="top" href="site.html">Site</a>
+                      <a class="top" href="contact.html">Contact</a>
+                      <p class="bottom"> Copyright@riya2023</p>
+                  </div>
+      </div>
     </body>
 </html>
